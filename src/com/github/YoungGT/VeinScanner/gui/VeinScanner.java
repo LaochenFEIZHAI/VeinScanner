@@ -118,64 +118,65 @@ public class VeinScanner extends javax.swing.JFrame {
 
 		javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
 		layout.setHorizontalGroup(
-				layout.createParallelGroup(Alignment.LEADING)
-						.addGroup(layout.createSequentialGroup().addGap(47).addGroup(layout
-								.createParallelGroup(Alignment.TRAILING).addGroup(layout.createParallelGroup(
-										Alignment.LEADING)
-										.addGroup(layout.createParallelGroup(Alignment.TRAILING)
-												.addGroup(layout.createSequentialGroup().addComponent(jLabel3)
-														.addPreferredGap(ComponentPlacement.RELATED))
-												.addGroup(layout.createSequentialGroup()
-														.addGroup(layout.createParallelGroup(Alignment.LEADING)
-																.addComponent(vp10, GroupLayout.PREFERRED_SIZE, 59,
+				layout.createParallelGroup(
+						Alignment.LEADING)
+						.addGroup(layout
+								.createSequentialGroup().addGroup(layout.createParallelGroup(Alignment.TRAILING)
+										.addGroup(Alignment.LEADING, layout.createSequentialGroup().addGap(47).addGroup(
+												layout.createParallelGroup(Alignment.TRAILING)
+														.addGroup(
+																layout.createSequentialGroup().addComponent(
+																		jLabel3)
+																		.addPreferredGap(ComponentPlacement.RELATED))
+														.addGroup(layout
+																.createSequentialGroup().addGroup(layout
+																		.createParallelGroup(Alignment.LEADING)
+																		.addComponent(vp00)
+																		.addComponent(vp10, GroupLayout.PREFERRED_SIZE,
+																				59, GroupLayout.PREFERRED_SIZE)
+																		.addComponent(vp20))
+																.addGap(57)))
+												.addGroup(layout.createParallelGroup(Alignment.LEADING)
+														.addGroup(layout.createSequentialGroup().addComponent(vp21)
+																.addPreferredGap(ComponentPlacement.RELATED))
+														.addGroup(layout.createSequentialGroup()
+																.addGroup(layout.createParallelGroup(Alignment.LEADING)
+																		.addComponent(vp01).addComponent(jScrollPane2,
+																				GroupLayout.PREFERRED_SIZE, 61,
+																				GroupLayout.PREFERRED_SIZE))
+																.addPreferredGap(ComponentPlacement.RELATED)
+																.addComponent(jLabel2, GroupLayout.PREFERRED_SIZE, 8,
+																		GroupLayout.PREFERRED_SIZE))
+														.addGroup(layout.createSequentialGroup()
+																.addComponent(vp11, GroupLayout.PREFERRED_SIZE, 64,
 																		GroupLayout.PREFERRED_SIZE)
-																.addComponent(vp00))
-														.addGap(57)))
-										.addComponent(vp20))
-								.addGroup(layout.createSequentialGroup()
-										.addComponent(jLabel8, GroupLayout.PREFERRED_SIZE, 61,
-												GroupLayout.PREFERRED_SIZE)
-										.addGap(18)))
+																.addPreferredGap(ComponentPlacement.RELATED))))
+										.addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel8,
+												GroupLayout.PREFERRED_SIZE, 104, GroupLayout.PREFERRED_SIZE)))
 								.addGroup(layout.createParallelGroup(Alignment.LEADING)
 										.addGroup(layout
-												.createParallelGroup(
-														Alignment.LEADING)
-												.addGroup(layout.createParallelGroup(Alignment.LEADING)
-														.addGroup(layout.createSequentialGroup()
-																.addPreferredGap(ComponentPlacement.RELATED, 16,
-																		Short.MAX_VALUE)
-																.addComponent(jButton1))
-														.addGroup(layout.createSequentialGroup().addComponent(vp21)
-																.addPreferredGap(ComponentPlacement.RELATED)))
-												.addGroup(layout.createSequentialGroup()
-														.addGroup(layout.createParallelGroup(Alignment.LEADING)
-																.addComponent(vp01).addComponent(jScrollPane2,
-																		GroupLayout.PREFERRED_SIZE, 61,
-																		GroupLayout.PREFERRED_SIZE))
+												.createParallelGroup(Alignment.LEADING).addGroup(layout
+														.createSequentialGroup()
 														.addPreferredGap(ComponentPlacement.RELATED)
-														.addComponent(jLabel2, GroupLayout.PREFERRED_SIZE, 8,
-																GroupLayout.PREFERRED_SIZE)))
+														.addComponent(jScrollPane1,
+																GroupLayout.PREFERRED_SIZE, 61,
+																GroupLayout.PREFERRED_SIZE)
+														.addGroup(layout.createParallelGroup(Alignment.LEADING)
+																.addGroup(layout.createSequentialGroup()
+																		.addGap(120, 120, Short.MAX_VALUE).addComponent(
+																				jLabel4, GroupLayout.PREFERRED_SIZE,
+																				88, GroupLayout.PREFERRED_SIZE))
+																.addGroup(layout.createSequentialGroup().addGap(144)
+																		.addComponent(jLabel1)))
+														.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+												.addGroup(layout.createSequentialGroup().addGap(53)
+														.addGroup(layout.createParallelGroup(Alignment.LEADING)
+																.addComponent(vp02).addComponent(vp12)
+																.addComponent(vp22))
+														.addGap(110)))
 										.addGroup(layout.createSequentialGroup()
-												.addComponent(vp11, GroupLayout.PREFERRED_SIZE, 64,
-														GroupLayout.PREFERRED_SIZE)
-												.addPreferredGap(ComponentPlacement.RELATED)))
-								.addGroup(layout.createParallelGroup(Alignment.LEADING)
-										.addGroup(layout.createSequentialGroup()
-												.addPreferredGap(ComponentPlacement.RELATED)
-												.addComponent(jScrollPane1, GroupLayout.PREFERRED_SIZE, 61,
-														GroupLayout.PREFERRED_SIZE)
-												.addGroup(layout.createParallelGroup(Alignment.LEADING)
-														.addGroup(layout.createSequentialGroup()
-																.addGap(120, 120, Short.MAX_VALUE).addComponent(jLabel4,
-																		GroupLayout.PREFERRED_SIZE, 88,
-																		GroupLayout.PREFERRED_SIZE))
-														.addGroup(layout.createSequentialGroup().addGap(144)
-																.addComponent(jLabel1)))
-												.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-										.addGroup(layout.createSequentialGroup().addGap(53)
-												.addGroup(layout.createParallelGroup(Alignment.LEADING)
-														.addComponent(vp02).addComponent(vp12).addComponent(vp22))
-												.addGap(110)))));
+												.addPreferredGap(ComponentPlacement.RELATED).addComponent(jButton1)
+												.addContainerGap()))));
 		layout.setVerticalGroup(layout.createParallelGroup(Alignment.LEADING).addGroup(layout.createSequentialGroup()
 				.addGap(21)
 				.addGroup(layout.createParallelGroup(Alignment.TRAILING)
@@ -200,11 +201,13 @@ public class VeinScanner extends javax.swing.JFrame {
 						.addGroup(layout.createParallelGroup(Alignment.TRAILING)
 								.addComponent(vp22, GroupLayout.PREFERRED_SIZE, 43, GroupLayout.PREFERRED_SIZE)
 								.addComponent(vp21, GroupLayout.PREFERRED_SIZE, 43, GroupLayout.PREFERRED_SIZE))
-						.addGap(18).addComponent(jButton1, GroupLayout.PREFERRED_SIZE, 27, GroupLayout.PREFERRED_SIZE))
+						.addGap(18)
+						.addGroup(layout.createParallelGroup(Alignment.TRAILING)
+								.addComponent(jLabel8, GroupLayout.PREFERRED_SIZE, 27, GroupLayout.PREFERRED_SIZE)
+								.addComponent(jButton1, GroupLayout.PREFERRED_SIZE, 27, GroupLayout.PREFERRED_SIZE)))
 						.addGroup(layout.createSequentialGroup()
 								.addComponent(vp20, GroupLayout.PREFERRED_SIZE, 43, GroupLayout.PREFERRED_SIZE)
-								.addGap(18)
-								.addComponent(jLabel8, GroupLayout.PREFERRED_SIZE, 27, GroupLayout.PREFERRED_SIZE)))
+								.addGap(45)))
 				.addPreferredGap(ComponentPlacement.RELATED, 18, Short.MAX_VALUE).addComponent(jLabel4)
 				.addContainerGap()));
 		getContentPane().setLayout(layout);
